@@ -5,6 +5,25 @@ This repository is a curated Python-only map for spatial transcriptomics analysi
 
 本仓库是一个只收录 Python 方法的空间转录组方法目录。编排顺序按真实项目的一般路线展开：数据对象、质控、标准化、分割、空间统计、细胞映射、空间域、通讯、配准、病理图像整合和结果汇报。
 
+## Table of Contents / 目录
+
+- [Scope / 收录范围](#scope)
+- [Recommended Workflow / 推荐分析路线](#recommended-workflow)
+- [Practical Routes / 实用组合](#practical-routes)
+- [Python Method Catalog / Python 方法目录](methods.md)
+  - [Data containers and general toolkits](methods.md#data-containers)
+  - [QC, normalization, and bias correction](methods.md#qc-normalization)
+  - [Cell segmentation and reconstruction](methods.md#segmentation)
+  - [Spatially variable genes and patterns](methods.md#spatial-signal)
+  - [Cell mapping and deconvolution](methods.md#cell-mapping)
+  - [Domains, niches, and clustering](methods.md#domains-niches)
+  - [Communication and spatial networks](methods.md#communication-networks)
+  - [Alignment and integration](methods.md#alignment-integration)
+  - [Histology and super-resolution](methods.md#histology-super-resolution)
+- [Papers / 论文](papers.md)
+
+<a id="scope"></a>
+
 ## Scope / 收录范围
 
 - Include: Python packages, Python-first workflows, PyPI/conda-installable tools, or command-line tools with Python APIs.
@@ -14,6 +33,8 @@ This repository is a curated Python-only map for spatial transcriptomics analysi
 - 收录：Python 包、Python 优先流程、可通过 PyPI/conda 安装的工具，或有 Python API 的命令行工具。
 - 不收录：纯 R、Julia、JavaScript、纯 GUI 工具，除非有 Python 实现。
 - 优先：兼容 `AnnData`、`SpatialData`、`squidpy` 或 `.h5ad` 流程的方法。
+
+<a id="recommended-workflow"></a>
 
 ## Recommended Workflow / 推荐分析路线
 
@@ -30,6 +51,8 @@ This repository is a curated Python-only map for spatial transcriptomics analysi
 | 9. Alignment | Align slices, samples, or modalities. | 配准切片、样本或多模态数据。 | `PASTE`, `PASTE2`, `STalign`, `moscot`, `TOAST` |
 | 10. Histology integration | Combine H&E or multiplex images with expression. | 整合 H&E 或多重图像与表达。 | `HEST`, `TESLA`, `ST-Net`, `DeepSpot`, `SpaHDmap` |
 | 11. Reporting | Produce reproducible notebooks and spatial figures. | 输出可复现 notebook 和空间图。 | `Scanpy`, `Squidpy`, `Sopa`, `napari`, `matplotlib` |
+
+<a id="practical-routes"></a>
 
 ## Practical Routes / 实用组合
 
@@ -75,4 +98,3 @@ This repository is inspired by public spatial omics lists, especially:
 - [p-gueguen/Spatial_transcriptomics_tools](https://github.com/p-gueguen/Spatial_transcriptomics_tools)
 
 The entries here are reorganized by Python-only usability and by a practical analysis path.
-
