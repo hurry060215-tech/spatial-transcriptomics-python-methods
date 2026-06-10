@@ -21,6 +21,7 @@ This repository is a curated Python-only map for spatial transcriptomics analysi
   - [Alignment and integration](methods.md#alignment-integration)
   - [Histology and super-resolution](methods.md#histology-super-resolution)
 - [Papers / 论文](papers.md)
+- [Papers with public code / 带公开代码的学习文章](papers_with_public_code.md)
 
 <a id="scope"></a>
 
@@ -84,10 +85,12 @@ Use `Sopa` and `SpatialData` for large images and shapes, `MerQuaCo` for QC, `Ce
 
 - [methods.md](methods.md): Python methods arranged by analysis step.
 - [papers.md](papers.md): reviews, benchmarks, and representative method papers.
+- [papers_with_public_code.md](papers_with_public_code.md): learning-oriented papers, protocols, benchmarks, and tutorials with public code.
 - [CONTRIBUTING.md](CONTRIBUTING.md): lightweight rules for adding new methods.
 
 - [methods.md](methods.md)：按分析步骤整理的 Python 方法清单。
 - [papers.md](papers.md)：综述、benchmark 和代表性方法论文。
+- [papers_with_public_code.md](papers_with_public_code.md)：带公开代码、适合跟着学习的文章、协议、benchmark 和教程。
 - [CONTRIBUTING.md](CONTRIBUTING.md)：新增方法的简单规范。
 
 ## Source Inspiration / 参考来源
