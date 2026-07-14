@@ -157,10 +157,12 @@ Use this file as a decision map. Each section gives common Python choices, when 
 | [`TESLA`](https://github.com/jianhuupenn/TESLA) | Super-resolution and histology-guided spatial analysis. | 基于组织图像的超分辨率和空间分析。 |
 | [`ST-Net`](https://github.com/bryanhe/ST-Net) | Predict expression from histology. | 从病理图像预测表达。 |
 | [`HEST`](https://github.com/mahmoodlab/HEST) | Dataset and tooling for ST plus histology. | 空转加病理图像数据和工具。 |
-| [`DeepSpot`](https://github.com/ratschlab/he2st) | Spatial expression prediction from H&E images. | 从 H&E 图像预测空间表达。 |
+| [`DeepSpot`](https://github.com/ratschlab/DeepSpot) | Spatial expression prediction from H&E images using spatial context. | 利用空间上下文从 H&E 图像预测空间表达。 |
+| [`DeepSpot2Cell`](https://github.com/ratschlab/DeepSpot2Cell) | Virtual single-cell spatial transcriptomics from H&E with spot-level supervision. | 用 spot 级监督从 H&E 预测虚拟单细胞空转。 |
+| [`DeepSpot-M`](https://github.com/ratschlab/DeepSpotM) | Multimodal foundation model for transcriptome-wide virtual ST from histology. | 从组织学做全转录组虚拟空转的多模态基础模型。 |
 | [`istar`](https://github.com/daviddaiweizhang/istar) | Super-resolution for Visium. | Visium 超分辨率。 |
 | [`SpaHDmap`](https://github.com/sldyns/SpaHDmap) | High-definition embedding with histology encoders. | 表达和图像编码器结合的高分辨率空间嵌入。 |
-| [`AESTETIK`](https://github.com/ratschlab/aestetik) | Autoencoder using topology and image knowledge. | 融合拓扑和图像知识的自编码器。 |
+| [`AESTETIK`](https://github.com/ratschlab/aestetik) | Multimodal representation learning for spatially resolved transcriptomics (image + expression). | 多模态空间转录组表示学习（图像+表达）。 |
 
 <a id="advanced-analyses"></a>
 
