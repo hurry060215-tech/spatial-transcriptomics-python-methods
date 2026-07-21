@@ -50,7 +50,7 @@ This repository is a curated Python-only map for spatial transcriptomics analysi
 | 7. Domains and niches | Identify spatial domains, cell niches, and microenvironments. | 识别空间域、细胞 niche 和微环境。 | `SpaGCN`, `stLearn`, `STAGATE`, `GraphST`, `CellCharter`, `NicheCompass`, `GASTON` |
 | 8. Communication | Infer spatially constrained signaling and transport. | 推断带空间约束的信号通讯和转运。 | `COMMOT`, `SpaOTsc`, `Squidpy`, `CellPhoneDB`, `LIANA+` |
 | 9. Alignment | Align slices, samples, or modalities. | 配准切片、样本或多模态数据。 | `PASTE`, `PASTE2`, `STalign`, `moscot`, `TOAST` |
-| 10. Histology integration | Combine H&E or multiplex images with expression. | 整合 H&E 或多重图像与表达。 | `HEST`, `TESLA`, `ST-Net`, `DeepSpot`, `SpaHDmap` |
+| 10. Histology integration | Combine H&E or multiplex images with expression. | 整合 H&E 或多重图像与表达。 | `HEST`, `TESLA`, `ST-Net`, `DeepSpot`, `DeepSpot2Cell`, `DeepSpot-M`, `SpaHDmap` |
 | 11. Reporting | Produce reproducible notebooks and spatial figures. | 输出可复现 notebook 和空间图。 | `Scanpy`, `Squidpy`, `Sopa`, `napari`, `matplotlib` |
 
 <a id="practical-routes"></a>
